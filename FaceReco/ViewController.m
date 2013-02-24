@@ -26,4 +26,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)returnedFromSettings:(UIStoryboardSegue *)segue
+{
+    
+}
+
+- (IBAction)returnedFromMatching:(UIStoryboardSegue *)segue
+{
+    
+}
+
+- (IBAction)returnedFromResult:(UIStoryboardSegue *)segue {
+    
+}
+
 @end
