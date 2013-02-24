@@ -11,7 +11,6 @@
 		D915151C16D832F7001A5E78 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D915151B16D832F7001A5E78 /* SettingsViewController.m */; };
 		D915151E16D83527001A5E78 /* settings_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = D915151D16D83527001A5E78 /* settings_32x32.png */; };
 		D915152716D837F4001A5E78 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D915152616D837F4001A5E78 /* ResultViewController.m */; };
-		D915152916D83BE7001A5E78 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D915152816D83BE7001A5E78 /* opencv2.framework */; };
 		D915152B16D83D6A001A5E78 /* MatchingViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D915152A16D83D6A001A5E78 /* MatchingViewController.mm */; };
 		D915152D16D83EC0001A5E78 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D915152C16D83EBF001A5E78 /* Accelerate.framework */; };
 		D915152F16D83EC5001A5E78 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D915152E16D83EC5001A5E78 /* AssetsLibrary.framework */; };
@@ -25,8 +24,7 @@
 		D915153F16D8459C001A5E78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D915153E16D8459C001A5E78 /* Default.png */; };
 		D915154116D845B8001A5E78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D915154016D845B8001A5E78 /* Default@2x.png */; };
 		D915154316D845BC001A5E78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D915154216D845BC001A5E78 /* Default-568h@2x.png */; };
-		D915154616D9C1AD001A5E78 /* VideoCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D915154516D9C1AD001A5E78 /* VideoCaptureViewController.mm */; };
-		D915154916D9C1D2001A5E78 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = D915154816D9C1D2001A5E78 /* UIImage+OpenCV.mm */; };
+		D915155616D9D41B001A5E78 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D915155516D9D41B001A5E78 /* opencv2.framework */; };
 		D971CEFC16D7D64900C4B62F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D971CEFB16D7D64900C4B62F /* UIKit.framework */; };
 		D971CEFE16D7D64900C4B62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D971CEFD16D7D64900C4B62F /* Foundation.framework */; };
 		D971CF0016D7D64900C4B62F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D971CEFF16D7D64900C4B62F /* CoreGraphics.framework */; };
@@ -62,7 +60,6 @@
 		D915152216D8378C001A5E78 /* MatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingViewController.h; sourceTree = "<group>"; };
 		D915152516D837F4001A5E78 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		D915152616D837F4001A5E78 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
-		D915152816D83BE7001A5E78 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		D915152A16D83D6A001A5E78 /* MatchingViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MatchingViewController.mm; sourceTree = "<group>"; };
 		D915152C16D83EBF001A5E78 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D915152E16D83EC5001A5E78 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -76,10 +73,7 @@
 		D915153E16D8459C001A5E78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		D915154016D845B8001A5E78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		D915154216D845BC001A5E78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		D915154416D9C1AD001A5E78 /* VideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureViewController.h; sourceTree = "<group>"; };
-		D915154516D9C1AD001A5E78 /* VideoCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCaptureViewController.mm; sourceTree = "<group>"; };
-		D915154716D9C1D2001A5E78 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
-		D915154816D9C1D2001A5E78 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		D915155516D9D41B001A5E78 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		D971CEF816D7D64900C4B62F /* FaceReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D971CEFB16D7D64900C4B62F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D971CEFD16D7D64900C4B62F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,7 +112,7 @@
 				D915152D16D83EC0001A5E78 /* Accelerate.framework in Frameworks */,
 				D971CEFC16D7D64900C4B62F /* UIKit.framework in Frameworks */,
 				D971CEFE16D7D64900C4B62F /* Foundation.framework in Frameworks */,
-				D915152916D83BE7001A5E78 /* opencv2.framework in Frameworks */,
+				D915155616D9D41B001A5E78 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +151,7 @@
 		D971CEFA16D7D64900C4B62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D915155516D9D41B001A5E78 /* opencv2.framework */,
 				D915153816D83F03001A5E78 /* QuartzCore.framework */,
 				D915153616D83EF9001A5E78 /* CoreVideo.framework */,
 				D915153416D83EE0001A5E78 /* CoreMedia.framework */,
@@ -164,7 +159,6 @@
 				D915153016D83EC9001A5E78 /* AVFoundation.framework */,
 				D915152E16D83EC5001A5E78 /* AssetsLibrary.framework */,
 				D915152C16D83EBF001A5E78 /* Accelerate.framework */,
-				D915152816D83BE7001A5E78 /* opencv2.framework */,
 				D971CEFB16D7D64900C4B62F /* UIKit.framework */,
 				D971CEFD16D7D64900C4B62F /* Foundation.framework */,
 				D971CEFF16D7D64900C4B62F /* CoreGraphics.framework */,
@@ -185,12 +179,8 @@
 				D915151B16D832F7001A5E78 /* SettingsViewController.m */,
 				D915152216D8378C001A5E78 /* MatchingViewController.h */,
 				D915152A16D83D6A001A5E78 /* MatchingViewController.mm */,
-				D915154416D9C1AD001A5E78 /* VideoCaptureViewController.h */,
-				D915154516D9C1AD001A5E78 /* VideoCaptureViewController.mm */,
 				D915152516D837F4001A5E78 /* ResultViewController.h */,
 				D915152616D837F4001A5E78 /* ResultViewController.m */,
-				D915154716D9C1D2001A5E78 /* UIImage+OpenCV.h */,
-				D915154816D9C1D2001A5E78 /* UIImage+OpenCV.mm */,
 				D971CF0216D7D64900C4B62F /* Supporting Files */,
 			);
 			path = FaceReco;
@@ -365,8 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D971CF2D16D7D64A00C4B62F /* FaceRecoTests.m in Sources */,
-				D915154616D9C1AD001A5E78 /* VideoCaptureViewController.mm in Sources */,
-				D915154916D9C1D2001A5E78 /* UIImage+OpenCV.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
